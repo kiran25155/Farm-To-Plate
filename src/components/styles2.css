@@ -1,0 +1,105 @@
+
+
+.Registrationform1 {
+        width: 100%;
+        height: 120vh;
+        display: flex;
+        background-image: url(../img/pexels-eberhard-grossgasteiger-2088170.jpg);
+        background-size: cover;
+        background-position: bottom center;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+.Registrationform1 .Registrationcontent1 {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+	padding: 1rem;
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	flex-grow: 1;
+	padding-bottom: 1rem;
+}
+
+a,
+a:visited {
+	color: #fff;
+}
+
+input[type='text'],
+input[type='password'],
+button,
+textarea {
+	font-family: 'Nunito', sans-serif;
+	font-size: 22px;
+	padding: 0.25rem;
+	border-radius: 0.5rem;
+}
+
+label,
+button {
+	margin-top: 1rem;
+}
+
+button {
+	padding: 0.5rem;
+}
+
+.instructions {
+	font-size: 1rem;
+	border-radius: 0.5rem;
+	background: rgb(105 ,30 ,30);
+	color: #fff;
+	padding: 0.25rem;
+	position: relative;
+	bottom: -10px;
+}
+
+.instructions > svg {
+	margin-right: 0.25rem;
+}
+
+.offscreen {
+	position: absolute;
+	left: -9999px;
+}
+
+.hide {
+	display: none;
+}
+
+.valid {
+	color: limegreen;
+	margin-left: 0.25rem;
+}
+
+.invalid {
+	color: red;
+	margin-left: 0.25rem;
+}
+
+.errmsg {
+	background-color: lightpink;
+	color: firebrick;
+	font-weight: bold;
+	padding: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.line {
+	display: inline-block;
+}
